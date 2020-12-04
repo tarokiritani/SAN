@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from lib.sa.modules import Subtraction, Subtraction2, Aggregation
+from ..lib.sa.modules import Subtraction, Subtraction2, Aggregation
 
 
 def conv1x1(in_planes, out_planes, stride=1):
